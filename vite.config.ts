@@ -11,7 +11,7 @@ export default defineConfig({
       exposes: {
         "./DashboardList": "./src/components/DashboardList",
       },
-      shared: ["react", "react-dom", "jotai"],
+      shared: ["react", "react-dom", "jotai", "react-router-dom" ],
     }),
   ],
   build: {
